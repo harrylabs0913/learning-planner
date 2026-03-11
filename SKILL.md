@@ -50,6 +50,9 @@ description: "Personal learning management system with goal setting, spaced repe
 ```bash
 cd ~/.openclaw/workspace/skills/learning-planner
 pip install -e .
+
+# 添加到 PATH (可选)
+ln -s ~/.openclaw/workspace/skills/learning-planner/src/learning_cli.py ~/.local/bin/learning
 ```
 
 ## 使用方法

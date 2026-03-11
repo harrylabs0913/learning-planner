@@ -16,6 +16,9 @@ Learning Planner is your personal learning companion that helps you structure yo
 ```bash
 cd ~/.openclaw/workspace/skills/learning-planner
 pip install -e .
+
+# Add to PATH (optional)
+ln -s ~/.openclaw/workspace/skills/learning-planner/src/learning_cli.py ~/.local/bin/learning
 ```
 
 ## Usage
